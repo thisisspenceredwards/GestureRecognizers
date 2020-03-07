@@ -49,6 +49,7 @@
 		F47F6FF02413269100CC5233 /* MarioCartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioCartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47F6FF42413269100CC5233 /* MarioCartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioCartAppUITests.swift; sourceTree = "<group>"; };
 		F47F6FF62413269100CC5233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F6F7DB241336E100F3B523 /* MarioCartApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarioCartApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		F47F6FD12413268B00CC5233 /* MarioCartApp */ = {
 			isa = PBXGroup;
 			children = (
+				F4F6F7DB241336E100F3B523 /* MarioCartApp.entitlements */,
 				F47F6FD22413268B00CC5233 /* AppDelegate.swift */,
 				F47F6FD42413268B00CC5233 /* SceneDelegate.swift */,
 				F47F6FD62413268B00CC5233 /* ViewController.swift */,
@@ -434,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarioCartApp/MarioCartApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMBS97RXK;
 				INFOPLIST_FILE = MarioCartApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarioCartApp/MarioCartApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MarioCartApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
